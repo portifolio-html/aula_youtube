@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Youtube</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="conteiner-main">
+        <form action="/cadastro" method="post">
+            <span>CADASTRO DE FORMULÁRIO</span>
+            <div class="container-input container-interno">
+                <input type="text" name="id" id="id" placeholder="ID. *" required>
+                <input type="text" name="cliente" id="cliente" placeholder="Cliente *" required>
+                <input type="text" name="cpf" id="cpf" placeholder="CPF">
+                <input type="text" name="rua" id="rua" placeholder="Rua">
+                <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+                <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+                <input type="text" name="uf" id="uf" placeholder="UF">
+                <input type="text" name="contato" id="contato" placeholder="Telefone *" required>
+            </div>
+            <div class="container-button container-interno">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
